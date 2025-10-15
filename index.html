@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advance Fitness — Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Advance Fitness — Push your limits" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Page wrapper for transitions -->
+  <div id="page" class="page">
+
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="index.html" class="brand logo">Advance <span>Fitness</span></a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" data-nav>Home</a></li>
+          <li><a href="products.html" data-nav>Products</a></li>
+          <li><a href="contact.html" data-nav>Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" title="Toggle theme">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero with parallax background image -->
+      <section class="hero">
+        <div class="hero-bg" data-parallax data-parallax-speed="0.25"
+          style="background-image: url('https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-inner">
+          <h1 class="hero-title">Push Your Limits</h1>
+          <p class="hero-sub">Train harder. Eat smarter. Become unstoppable.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="products.html" data-anim-link>Shop Gear</a>
+            <a class="btn btn-ghost" href="contact.html" data-anim-link>Join Now</a>
+          </div>
+        </div>
+
+        <!-- animated accent waves -->
+        <svg class="hero-waves" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0,40 C360,120 1080,-40 1440,40 L1440,120 L0,120 Z"></path>
+        </svg>
+      </section>
+
+      <!-- About -->
+      <section class="section about">
+        <div class="container">
+          <h2 class="section-title">Welcome to Advance Fitness</h2>
+          <p class="lead">We combine modern equipment, expert trainers, and smart nutrition to help you build the best version of yourself.</p>
+          <div class="features-grid">
+            <div class="feature card" data-fade>Expert Trainers</div>
+            <div class="feature card" data-fade>Modern Equipment</div>
+            <div class="feature card" data-fade>Nutrition Plans</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery (parallax tiles) -->
+      <section class="section gallery">
+        <div class="container">
+          <h2 class="section-title">Our Space</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item" data-parallax data-parallax-speed="0.12"
+              style="background-image: url('https://images.pexels.com/photos/416745/pexels-photo-416745.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+            <div class="gallery-item" data-parallax data-parallax-speed="0.18"
+              style="background-image: url('https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+            <div class="gallery-item" data-parallax data-parallax-speed="0.22"
+              style="background-image: url('https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+            <div class="gallery-item" data-parallax data-parallax-speed="0.14"
+              style="background-image: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p style="text-align: center;">© 2025 Advance Fitness — All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="theme.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
