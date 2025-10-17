@@ -150,3 +150,15 @@ body.page-ready .preloader { opacity:0; pointer-events:none; visibility:hidden; 
   .hero-inner { padding: 0 12px; }
   .hero-title { font-size:2rem; }
 }
+
+.product:hover { 
+  box-shadow: #333 0px 6px 6px;
+
+ }
+ .logo{
+  text-shadow: white 0px 0px 10px;
+ }
+  .fa-dumbbell{
+    color: red;
+    text-shadow: white 0px 0px 10px;
+  }
